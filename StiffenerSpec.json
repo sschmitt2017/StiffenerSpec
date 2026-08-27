@@ -10,7 +10,7 @@
   "ruleSets": [
     {
       "name": "GALV-EXT-STANDARD",
-      "minPartLengthIn": 24,
+      "minPartLengthIn": 24.1,
       "placement": "middle",
       "breakpoints": [
         { "maxSizeIn": 71,   "stiffener": null,              "spacingIn": 30 },
