@@ -21,6 +21,6 @@
   ],
 
   "specifications": [
-    { "specification": "MTECH NO TIE STDS: 4 IN PL (EXT) NEW", "ruleSet": "GALV-EXT-STANDARD" }
+    { "specification": "-MTECH NO TIE STDS: 4 IN GALV (EXT) NEW", "ruleSet": "GALV-EXT-STANDARD" }
   ]
 }
