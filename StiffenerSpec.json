@@ -3,8 +3,8 @@
   "versionDate": "2026-08-27",
 
   "stiffeners": [
-    { "name": "2 x 1/8 ANGLE",   "familyName": "Stiffener 4sides 2in ANGLE", "familyType": "1/8in Angle" },
-    { "name": "2.5 x 1/4 ANGLE", "familyName": "Stiffener 4sides 2in ANGLE", "familyType": "1/4in Angle" }
+    { "name": "2 x 1/8 ANGLE",   "familyName": "Stiffener 4sides 2x1/8in ANGLE", "familyType": "1/8in Angle" },
+    { "name": "2.5 x 1/4 ANGLE", "familyName": "Stiffener 4sides 2x1/4in ANGLE", "familyType": "1/4in Angle" }
   ],
 
   "ruleSets": [
