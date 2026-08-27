@@ -1,3 +1,7 @@
+{
+  "version": 1,
+  "versionDate": "2026-08-27",
+
   "stiffeners": [
     {
       "name": "1.5 x 1/8 ANGLE",
@@ -60,3 +64,21 @@
       "familyType": "3x3/16in ANGLE"
     }
   ],
+
+  "ruleSets": [
+    {
+      "name": "GALV-EXT-STANDARD",
+      "minPartLengthIn": 24,
+      "placement": "middle",
+      "breakpoints": [
+        { "maxSizeIn": 71,   "stiffener": null,              "spacingIn": 30 },
+        { "maxSizeIn": 180,  "stiffener": "2 x 1/8 ANGLE",   "spacingIn": 30 },
+        { "maxSizeIn": null, "stiffener": "2.5 x 1/4 ANGLE", "spacingIn": 15 }
+      ]
+    }
+  ],
+
+  "specifications": [
+    { "specification": "MTECH STANDARDS: 4 IN GALV (EXT) NEW", "ruleSet": "GALV-EXT-STANDARD" }
+  ]
+}
