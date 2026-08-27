@@ -1,26 +1,62 @@
-{
-  "version": 1,
-  "versionDate": "2026-08-27",
-
   "stiffeners": [
-    { "name": "2 x 1/8 ANGLE",   "familyName": "Stiffener 4sides 2x1/8in ANGLE", "familyType": "1/8in Angle" },
-    { "name": "2.5 x 1/4 ANGLE", "familyName": "Stiffener 4sides 2x1/4in ANGLE", "familyType": "1/4in Angle" }
-  ],
-
-  "ruleSets": [
     {
-      "name": "GALV-EXT-STANDARD",
-      "minPartLengthIn": 24.1,
-      "placement": "middle",
-      "breakpoints": [
-        { "maxSizeIn": 71,   "stiffener": null,              "spacingIn": 30 },
-        { "maxSizeIn": 180,  "stiffener": "2 x 1/8 ANGLE",   "spacingIn": 30 },
-        { "maxSizeIn": null, "stiffener": "2.5 x 1/4 ANGLE", "spacingIn": 15 }
-      ]
+      "name": "1.5 x 1/8 ANGLE",
+      "familyName": "ANGLE STIFFENER",
+      "familyType": "1-1/2x1/8in ANGLE"
+    },
+    {
+      "name": "1.5 x 1/4 ANGLE",
+      "familyName": "ANGLE STIFFENER",
+      "familyType": "1-1/2x1/4in ANGLE"
+    },
+    {
+      "name": "1.5 x 3/16 ANGLE",
+      "familyName": "ANGLE STIFFENER",
+      "familyType": "1-1/2x3/16in ANGLE"
+    },
+    {
+      "name": "2 x 1/8 ANGLE",
+      "familyName": "ANGLE STIFFENER",
+      "familyType": "2x1/8in ANGLE"
+    },
+    {
+      "name": "2 x 1/4 ANGLE",
+      "familyName": "ANGLE STIFFENER",
+      "familyType": "2x1/4in ANGLE"
+    },
+    {
+      "name": "2 x 3/16 ANGLE",
+      "familyName": "ANGLE STIFFENER",
+      "familyType": "2x3/16in ANGLE"
+    },
+    {
+      "name": "2.5 x 1/8 ANGLE",
+      "familyName": "ANGLE STIFFENER",
+      "familyType": "2-1/2x1/8in ANGLE"
+    },
+    {
+      "name": "2.5 x 1/4 ANGLE",
+      "familyName": "ANGLE STIFFENER",
+      "familyType": "2-1/2x1/4in ANGLE"
+    },
+    {
+      "name": "2.5 x 3/16 ANGLE",
+      "familyName": "ANGLE STIFFENER",
+      "familyType": "2-1/2x3/16in ANGLE"
+    },
+    {
+      "name": "3 x 1/8 ANGLE",
+      "familyName": "ANGLE STIFFENER",
+      "familyType": "3x1/8in ANGLE"
+    },
+    {
+      "name": "3 x 1/4 ANGLE",
+      "familyName": "ANGLE STIFFENER",
+      "familyType": "3x1/4in ANGLE"
+    },
+    {
+      "name": "3 x 3/16 ANGLE",
+      "familyName": "ANGLE STIFFENER",
+      "familyType": "3x3/16in ANGLE"
     }
   ],
-
-  "specifications": [
-    { "specification": "-MTECH NO TIE STDS: 4 IN GALV (EXT) NEW", "ruleSet": "GALV-EXT-STANDARD" }
-  ]
-}
