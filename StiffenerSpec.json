@@ -65,20 +65,176 @@
     }
   ],
 
+
   "ruleSets": [
     {
-      "name": "GALV-EXT-STANDARD",
+      "name": "2 IN GALV (EXT) NEW",
       "minPartLengthIn": 24,
       "placement": "middle",
       "breakpoints": [
-        { "maxSizeIn": 71,   "stiffener": null,              "spacingIn": 30 },
-        { "maxSizeIn": 180,  "stiffener": "2 x 1/8 ANGLE",   "spacingIn": 30 },
-        { "maxSizeIn": null, "stiffener": "2.5 x 1/4 ANGLE", "spacingIn": 15 }
+        {
+          "maxSizeIn": 54,
+          "stiffener": null,
+          "spacingIn": 30
+        },
+        {
+          "maxSizeIn": 72,
+          "stiffener": "2 x 1/8 ANGLE",
+          "spacingIn": 30
+        },
+        {
+          "maxSizeIn": 96,
+          "stiffener": "2 x 1/4 ANGLE",
+          "spacingIn": 30
+        },
+        {
+          "maxSizeIn": null,
+          "stiffener": "2.5 x 1/4 ANGLE",
+          "spacingIn": 15
+        }
+      ]
+    },
+    {
+      "name": "3 IN GALV (EXT) NEW",
+      "minPartLengthIn": 24,
+      "placement": "middle",
+      "breakpoints": [
+        {
+          "maxSizeIn": 36,
+          "stiffener": null,
+          "spacingIn": 30
+        },
+        {
+          "maxSizeIn": 42,
+          "stiffener": "1.5 x 1/8 ANGLE",
+          "spacingIn": 30
+        },
+        {
+          "maxSizeIn": 54,
+          "stiffener": "2 x 1/4 ANGLE",
+          "spacingIn": 30
+        },
+        {
+          "maxSizeIn": 72,
+          "stiffener": "2 x 1/8 ANGLE",
+          "spacingIn": 30
+        },
+        {
+          "maxSizeIn": null,
+          "stiffener": "2 x 1/8 ANGLE",
+          "spacingIn": 15
+        }
+      ]
+    },
+    {
+      "name": "4 IN GALV (EXT) NEW",
+      "minPartLengthIn": 24,
+      "placement": "middle",
+      "breakpoints": [
+        {
+          "maxSizeIn": 30,
+          "stiffener": null,
+          "spacingIn": 30
+        },
+        {
+          "maxSizeIn": 42,
+          "stiffener": "1.5 x 1/8 ANGLE",
+          "spacingIn": 30
+        },
+        {
+          "maxSizeIn": 54,
+          "stiffener": "2 x 1/4 ANGLE",
+          "spacingIn": 30
+        },
+        {
+          "maxSizeIn": 72,
+          "stiffener": "2 x 1/8 ANGLE",
+          "spacingIn": 30
+        },
+        {
+          "maxSizeIn": null,
+          "stiffener": "2 x 1/8 ANGLE",
+          "spacingIn": 15
+        }
+      ]
+    },
+    {
+      "name": "6 IN GALV (EXT) NEW",
+      "minPartLengthIn": 24,
+      "placement": "middle",
+      "breakpoints": [
+        {
+          "maxSizeIn": 24,
+          "stiffener": null,
+          "spacingIn": 30
+        },
+        {
+          "maxSizeIn": 26,
+          "stiffener": "1.5 x 1/8 ANGLE",
+          "spacingIn": 30
+        },
+        {
+          "maxSizeIn": 36,
+          "stiffener": "2 x 1/8 ANGLE",
+          "spacingIn": 30
+        },
+        {
+          "maxSizeIn": 42,
+          "stiffener": "2 x 1/4 ANGLE",
+          "spacingIn": 30
+        },
+        {
+          "maxSizeIn": null,
+          "stiffener": "2 x 1/8 ANGLE",
+          "spacingIn": 15
+        }
+      ]
+    },
+    {
+      "name": "10 IN GALV (EXT) NEW",
+      "minPartLengthIn": 24,
+      "placement": "middle",
+      "breakpoints": [
+        {
+          "maxSizeIn": 18,
+          "stiffener": null,
+          "spacingIn": 30
+        },
+        {
+          "maxSizeIn": 26,
+          "stiffener": "1.5 x 1/8 ANGLE",
+          "spacingIn": 30
+        },
+        {
+          "maxSizeIn": null,
+          "stiffener": "2 x 1/8 ANGLE",
+          "spacingIn": 15
+        }
       ]
     }
   ],
 
+
   "specifications": [
-    { "specification": "MTECH STANDARDS: 4 IN GALV (EXT) NEW", "ruleSet": "GALV-EXT-STANDARD" }
+    {
+      "specification": "-MTECH NO TIE STDS: 2 IN GALV (EXT) NEW",
+      "ruleSet": "2 IN GALV (EXT) NEW"
+    },
+    {
+      "specification": "-MTECH NO TIE STDS: 3 IN GALV (EXT) NEW",
+      "ruleSet": "3 IN GALV (EXT) NEW"
+    },
+    {
+      "specification": "-MTECH NO TIE STDS: 4 IN GALV (EXT) NEW",
+      "ruleSet": "4 IN GALV (EXT) NEW"
+    },
+    {
+      "specification": "-MTECH NO TIE STDS: 6 IN GALV (EXT) NEW",
+      "ruleSet": "6 IN GALV (EXT) NEW"
+    },
+    {
+      "specification": "-MTECH NO TIE STDS: 10 IN GALV (EXT) NEW",
+      "ruleSet": "10 IN GALV (EXT) NEW"
+    }
   ]
 }
