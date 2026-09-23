@@ -229,6 +229,10 @@
       "ruleSet": "4 IN GALV (EXT) NEW"
     },
     {
+      "specification": "-MTECH NO TIE STDS: 4 IN GALV PITTS-TDC (EXT) NEW",
+      "ruleSet": "4 IN GALV (EXT) NEW"
+    },
+    {
       "specification": "-MTECH NO TIE STDS: 6 IN GALV (EXT) NEW",
       "ruleSet": "6 IN GALV (EXT) NEW"
     },
